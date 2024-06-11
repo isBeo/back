@@ -1,0 +1,20 @@
+{
+  "name": "meta-blog",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "console-ninja node --watch server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Theophilus Alali Daminabo",
+  "license": "ISC",
+  "description": "an API demonstration of meta blog. This is a project given to the cohort 2 of nera hubs.",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1"
+  }
+}
